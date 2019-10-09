@@ -1,0 +1,53 @@
+app:
+  remove_markup: Ok. Now I've removed the custom markup)
+  invalid_command: "%1, have no idea what does this mean. Please select valid command!"
+
+start: |
+  Hi %1, nice to see you here!
+  
+  This is administration bot for the telegram bot store.
+  If you know what to do - go ahead
+
+admin:
+  enter_pass: Please enter the password
+  wrong_pass: Unfortunately, the password is incorrect...
+  already_logged: You've already logпed in. There is nothing to worry about :)
+  logged_out: Bye %1... Hope to see you soon!
+  logged_in: Congratulations %1, you've successfuly loged in. Welcome!
+  exit_msg: You have just exited
+
+product:
+  start: Please select the option
+  created: The product %1 has been created. Please /product_edit it to fulfill all fields.
+  already_exist: "%1 already exist! Please enter a unique product name or /exit."
+  dont_exist: "%1 does not exist! Please enter a valid product name or /exit."
+  create: Please enter unique product name or you can /exit for sure
+  read: "ID: %1\n
+    \n
+    Name: %2\n
+    Description: %3\n
+    \n
+    Cost: %4\n
+    Price: %5\n
+    Currently in stock: %6"
+
+  enter_id: Please enter product you want to read or /exit
+  update: "ID: %1\n
+    \n
+    Name: %2, edit /product_name\n
+    Description: %3, edit /product_description\n
+    \n
+    Cost: %4, edit /product_cost\n
+    Price: %5, edit /product_price\n
+    Currently in stock: %6, edit /product_stock\n
+    \n
+    You can also edit /product_landscape and /product_images as well\n
+    \n
+    To exit editing put /exit"
+
+  enter_valid_name: Please enter product you want to update or /exit
+  deleted: The product %1 has been deleted.
+  enter_to_delete: Please enter product you want to delete or /exit
+  edit: /product_edit Please select the product you want to edit
+  edited: "%1:%2 = %3"
+  enter_new_val: "Please enter the new value of %1:%2"
